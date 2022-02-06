@@ -34,5 +34,5 @@ class bandit_env():
         :outputs:
         reward: the reward obtained by pulling tht arm (sampled from their corresponding Gaussian distribution)
         """
-        reward = np.random.randn(self.r_mean[index_arm], self.r_stddev[index_arm])
+        reward = np.random.normal(self.r_mean[index_arm], self.r_stddev[index_arm])
         return reward
