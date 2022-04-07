@@ -11,6 +11,9 @@ Download the respective assignment folders to access the environment file.
 ### Assignment-1
 Multi-armed bandits environment: `bandit_env.py`
 
+### Assignment-2
+Warehouse agent environment: `warehouse.py`
+
 
 <br />
 <br />
